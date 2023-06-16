@@ -1,0 +1,155 @@
+{
+  "id": "0bff86b5-1070-43cf-a6e6-7a20031d058c",
+  "version": "2.0",
+  "name": "my profile",
+  "url": "https://qauto2.forstudy.space/panel/garage",
+  "tests": [{
+    "id": "73459600-d3b2-42d5-a827-5325f2e716bc",
+    "name": "My profile",
+    "commands": [{
+      "id": "4d7643c4-9767-4175-8d04-372587775487",
+      "comment": "",
+      "command": "open",
+      "target": "https://qauto2.forstudy.space/panel/garage",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e7987772-7c34-4fd9-b1d8-858c16489540",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "54f07f7e-07ee-444e-9adb-9bf4b0f8625b",
+      "comment": "",
+      "command": "click",
+      "target": "id=userNavDropdown",
+      "targets": [
+        ["id=userNavDropdown", "id"],
+        ["css=#userNavDropdown", "css:finder"],
+        ["xpath=//button[@id='userNavDropdown']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'My profile')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "69fdb642-38b0-4612-88ed-4e77fd230f64",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "xpath=//button[@id='userNavDropdown' and contains(text(),'My profile')]",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "a44dab3d-de6c-46e2-b38e-3fa5b76ca504",
+    "name": "Garage",
+    "commands": [{
+      "id": "c97c4c2f-5a10-485d-b8c0-632e7ad72d05",
+      "comment": "",
+      "command": "open",
+      "target": "https://qauto2.forstudy.space/panel/garage",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cedc6184-7da0-4005-8159-88d97e8c8606",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "975x759",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2ac74fff-2c79-40fe-b01a-c06342865f62",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "xpath=//a[@routerlink='garage']",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "ecb18562-3f35-4d69-bedc-ee8f248e72d8",
+    "name": "Expenses",
+    "commands": [{
+      "id": "b422c856-587a-43f5-89e3-ec426d3278fb",
+      "comment": "",
+      "command": "open",
+      "target": "https://qauto2.forstudy.space/panel/garage",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "09e1094b-dac0-4245-8117-85dd654f9f8e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "975x759",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cc4c04f2-ef29-4488-a711-d20a1e0e97ae",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "xpath=//a[@routerlink='expenses']",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "baa9fcdb-cea5-418b-b45a-29010118153a",
+    "name": "Upload",
+    "commands": [{
+      "id": "aa5f38f9-3cb4-492b-8f23-e2979239538d",
+      "comment": "",
+      "command": "open",
+      "target": "https://qauto2.forstudy.space/panel/garage",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "01667612-3d56-4733-84d4-4b8f540ca19e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "975x759",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "38183c21-b41d-44e7-823e-da5937acdd5b",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "xpath=//*[@routerlink='expenses']",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "4ea22dff-6058-4d18-839c-d68965fb946d",
+    "name": "Instructions ",
+    "commands": [{
+      "id": "bc1131c7-620b-4204-9d5a-c23bc52e2724",
+      "comment": "",
+      "command": "open",
+      "target": "https://qauto2.forstudy.space/panel/garage",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "578c3779-9ce1-4440-9120-01d70636e69f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "976x760",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "38f084af-7f66-45d4-b050-f29a59fd3d4a",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "xpath=//a[@routerlink='/panel/instructions']",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "b5789c6b-d242-43fd-8df6-1adafe4a059a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["73459600-d3b2-42d5-a827-5325f2e716bc"]
+  }],
+  "urls": ["https://qauto2.forstudy.space/panel/garage"],
+  "plugins": []
+}
